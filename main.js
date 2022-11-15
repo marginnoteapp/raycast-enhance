@@ -46,20 +46,20 @@ try {
       return JSB.defineClass(
         Addon.name + ": JSExtension",
         {
-          sceneDidDisconnect() {
-            fetchNotebook()
-          },
-          sceneWillResignActive() {
-            isInNotebook && fetchNotebook()
-          },
-          notebookWillOpen() {
-            isInNotebook = true
-          },
           notebookWillClose() {
-            isInNotebook = false
+            fetchNotebook()
           }
         },
-        {}
+        {
+          addonDidConnect() {
+            if (
+              !NSFileManager.defaultManager().fileExistsAtPath(
+                mainPath + "/notebooks.json"
+              )
+            )
+              fetchNotebook()
+          }
+        }
       )
     }
   })()

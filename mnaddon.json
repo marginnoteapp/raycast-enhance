@@ -2,7 +2,7 @@
   "addonid": "marginnote.extension.raycastenhance",
   "author": "MN(ourongxing",
   "title": "Raycast Enhance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "marginnote_version_min": "3.7.19",
   "cert_key": ""
 }
