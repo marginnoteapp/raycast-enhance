@@ -3,6 +3,7 @@
   <b>Used to enhance <a href="https://github.com/marginnoteapp/raycast">Raycast extensiton of MarginNote</a></b>
 </p>
 <p align="center">
+  <img src="https://img.shields.io/badge/Status-Deprecated-d73a49?style=flat&labelColor=2E72E7" alt="stars">
   <a href="https://github.com/marginnoteapp/raycast-enhance/stargazers"><img src="https://img.shields.io/github/stars/marginnoteapp/raycast-enhance.svg?style=flat" alt="stars"></a>
   <a href="https://www.marginnote.com/store-v2"><img src="https://img.shields.io/badge/MarginNote Mac-v3.7.21-blue" alt="marginnote-version"></a>
   <a href="https://github.com/marginnoteapp/raycast-enhance/blob/main/package.json"><img src="https://img.shields.io/badge/version-v1.0.0-orange" alt="version"></a>
